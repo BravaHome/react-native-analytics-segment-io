@@ -31,6 +31,7 @@ android {
 repositories {
   maven { url "$rootDir/../node_modules/react-native/android" }
   mavenCentral()
+  maven { url 'https://dl.bintray.com/android/android-tools' } // This has 2.3.3 gradle
   maven { url "http://appboy.github.io/appboy-android-sdk/sdk" } // Required for Braze (formerly Appboy)
   maven { url 'https://comscore.bintray.com/Analytics' } // Required for Comscore
   maven { url 'http://dl.bintray.com/countly/maven' } // Required for Countly
